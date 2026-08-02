@@ -3,10 +3,8 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
 int main() 
 {
-
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     char ch;
     scanf("%c", &ch); 
@@ -19,4 +17,5 @@ int main()
     printf("%s\n",s);
     printf("%s",sen);
     return 0;
+    
 }
