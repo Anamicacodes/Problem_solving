@@ -11,6 +11,10 @@ int main(){
     int pos;
     cout << "Enter the position at which you want to delete the element : ";
     cin >> pos;
+    if(pos < 0 || pos>= n){
+        cout << "Invalid position";
+        return 0;
+    }
     for(int i=pos; i<n-1;i++){
         arr[i] = arr[i+1];
     }
@@ -19,4 +23,5 @@ int main(){
     for(int i=0;i <n ; i++){
         cout << arr[i] << " ";
     }
+    return 0;
 }
