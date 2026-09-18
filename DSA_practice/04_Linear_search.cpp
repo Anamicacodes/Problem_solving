@@ -16,11 +16,12 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             index =i;
+            break;   //to avoid replacing with duplicates 
         }
     }
     
     if(index!= -1){
-        cout << "Element found at index "<<index;
+        cout << "Element found at index " << index;
     }
     else {
         cout << "Element not found!";
