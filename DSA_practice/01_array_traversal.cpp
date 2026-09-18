@@ -13,4 +13,8 @@ int main(){
     for(int i=0; i<n;i++){
         cout << arr[i] << "  ";
     }
+    cout <<"Reverse of the array : " ;
+    for(int i=n-1;i >=0;i--){
+        cout << arr[i] << " ";
+    }
 }
