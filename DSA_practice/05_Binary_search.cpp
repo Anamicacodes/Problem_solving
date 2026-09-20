@@ -1,3 +1,4 @@
+//for ascending 
 #include <iostream>
 using namespace std;
 int main(){
