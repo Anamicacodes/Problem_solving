@@ -11,7 +11,7 @@ int main(){
         cin >> arr[i];
     }
     int max = arr[0];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){ //better to start with 1
         if(arr[i] > max ){
             max = arr[i];
         }

@@ -14,6 +14,7 @@ int main(){
     for(int i=0; i<n;i++){
         sum+=arr[i];
     }
-    int average= sum/n;
+    double average= ( double)sum/n;    //can be int or float as per the test cases
+    //double average = static_cast<double>(sum) / n;
     cout <<"Average of elements of the array is: "<< average;
 }
