@@ -22,7 +22,8 @@ int main(){
     int pos_count =0;
     int neg_count =0;
     for(int i=0;i<n;i++){
-        if(arr[i] >=0){
+        if(arr[i] >=0){    //ok if non negative integers are to be found
+                           //for even odd use >0 not >=0 becuase 0 is non of them 
             pos_count++;
         }
         else 
