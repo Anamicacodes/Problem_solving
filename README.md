@@ -5,7 +5,10 @@ This repository contains my solutions to programming problems from various codin
 ## Platforms
 
 - HackerRank
-- LeetCode (Coming Soon)
+- Eular
+- Own practice
+- Code forces
+- Leetcode
 - CodeChef (Coming Soon)
 
 ## Languages
