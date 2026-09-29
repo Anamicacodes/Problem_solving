@@ -11,7 +11,8 @@ int main(){
     }
     bool visited[100] = {false};
     for(int i=0;i<n;i++){
-        if (visited[i] == true) continue;
+        if (visited[i] == true) 
+            continue;
         int count =1;
         for(int j=i+1; j<n; j++){
             if(arr[i] == arr[j]){

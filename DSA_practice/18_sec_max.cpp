@@ -31,7 +31,8 @@ int main(){
             break;
         }
     }
-
+    
+    //Other method : 
     int max1 = arr[0];
     int max2 = arr[1];
     if(max2 > max1){
