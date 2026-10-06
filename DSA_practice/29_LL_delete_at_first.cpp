@@ -25,14 +25,14 @@ int main(){
         temp = temp->next;
     }
     cout << "\nAfter deletion : ";
-    
+    temp = head;
     //deletion at first :
-    head = head->next;    //prefer the general form instad of writing node2
+    head = head->next;    //prefer the general form instead of writing node2
     delete temp;
-    Node* temp = head;
+
+    temp = head;
     while(temp != NULL){
         cout << temp->data << " ";
         temp = temp->next;
     }
-
 }
