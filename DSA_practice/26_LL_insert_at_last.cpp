@@ -30,7 +30,7 @@ int main() {
     cout << endl;
     //printing after inserting at last: 
     temp = head;
-    while(temp!=NULL){
+    while(temp != NULL){
         cout << temp->data << " ";
         temp = temp->next;
     }
