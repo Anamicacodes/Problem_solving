@@ -41,11 +41,12 @@ int main(){
     delete last;
 
 }
-    cout << "After deleting the last element";
+    cout << "\nAfter deleting the last element";
     //re-print the deleted list:
     temp =head;
     while (temp != NULL){
         cout << temp->data << " ";
         temp = temp->next;
-    }    
+    }
+
 }
