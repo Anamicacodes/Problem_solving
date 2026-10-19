@@ -16,6 +16,7 @@ int main(){
     node3->data = 30;
     node3->next = NULL;
 
+    int pos = 1;
     int target;
     cout << "Enter target : ";
     cin >> target;
@@ -27,11 +28,12 @@ int main(){
             break;
         }
         temp = temp->next;
+        pos++; 
     }
     if (flag ==0){
         cout << "Not found";
     }
     else if(flag ==1) {
-        cout << "Found";
+        cout << "Found at " << pos << " position.";
     }
 }
