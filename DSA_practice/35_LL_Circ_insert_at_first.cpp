@@ -46,5 +46,10 @@ int main(){
     tail->next = insert_node;
     head = insert_node; 
 
+    temp = head ;
+    do {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }while(temp!=head);
     
 }
